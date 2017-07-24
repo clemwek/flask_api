@@ -1,4 +1,4 @@
-from flask_api.flask_api import db
+from config import db
 from sqlalchemy.dialects.postgresql import JSON
 
 

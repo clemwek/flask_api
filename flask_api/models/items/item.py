@@ -18,4 +18,4 @@ class Item(object):
         self.date = date
 
     def __repr__(self):
-        return '<Item {}, created on {}.>'.format(self.name, self.date)
+        return '<Item {}, to be completed on {}.>'.format(self.name, self.date)
